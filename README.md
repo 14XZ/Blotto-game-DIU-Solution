@@ -17,7 +17,7 @@ Just run
 and will write one more row in [```document.csv```](document.csv).
 
 2. Julia implementation forks (but modified of course) from [authors' implementation](github.com/Soben713/ColonelBlotto)[^n1] which reduces number of linear constraints in [^n3].
-First run ```julia Colonel/blotto.jl``` and obtain files like [```distri_90_100a.csv```](Colonel/distri_90_100a.csv), [```distri_110_100b.csv```](Colonel/distri_110_100b.csv). Then run ```python3 test_julia_output.py``` to write one more row in [```document.csv```](document.csv).
+First run ```julia ColonelBlotto/blotto.jl``` and obtain files like [```ColonelBlotto/distri_90_100a.csv```](ColonelBlotto/distri_90_100a.csv), [```ColonelBlotto/distri_110_100b.csv```](ColonelBlotto/distri_110_100b.csv). Then run ```python3 test_julia_output.py``` to write one more row in [```document.csv```](document.csv).
 
 For results of baby tournament, just run ```python3 draw_table.py``` and will obtain files like [```output_table_90.csv```](output_table_90.csv), [```output_table_110.csv```](output_table_110.csv).
 
