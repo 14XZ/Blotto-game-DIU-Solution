@@ -6,7 +6,15 @@ Blotto Game simulation
 
 Two algorithms are analysed and implemented:
 1. Python verion of [^n2] rather than [authors' R implementation](https://github.com/dongquan11/Approx_discrete_Blotto) (just because I do not like R).
-Just run ```python3 test.py``` and will write one more row in ```document.csv```.
+Just run 
+
+```python3 test.py 100 100``` or 
+
+```python3 test.py 100 110``` or
+
+```python3 test.py 100 90```
+
+and will write one more row in ```document.csv```.
 
 2. Julia implementation forks (but modified of course) from [authors' implementation](github.com/Soben713/ColonelBlotto)[^n1] which reduces number of linear constraints in [^n3].
 First run ```julia Colonel/blotto.jl``` and obtain files like ```distri_90_100a.csv```, ```distri_110_100b.csv```. Then run ```python3 test_julia_output.py``` to write one more row in ```document.csv```.
